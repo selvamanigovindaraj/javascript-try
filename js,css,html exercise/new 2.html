@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<input type="number" id="firstNumber" onkeyup="firstAdd()" >
++
+<input type="number" id="lastNumber" onkeyup="lastAdd()">
+=
+<span id="output"></span>
+
+<script>
+	for(var i=0;i<3;i++){
+		setTimeout(function(){alert(i);},1000+i);
+	} 
+	
+	var a = 10;alert(a); //Alert 1
+	function display() {
+		alert(a);var a = 100;
+		alert (a); //Alert2
+	 }
+	 display();
+	 alert (a); //Alert 3
+</script>
+
+
+
+</body>
+</html>

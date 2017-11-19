@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+<button id="button">Button</button>
+<span id="output"></span>
+<script>
+	var but=document.getElementsByTagName("button")
+	but[0].addEventListener("click", displayString)
+	function displayString(){
+		document.getElementById('output').innerHTML="Hey click event is added to button"
+		
+	};
+
+	let salary = [50000, 75000, 65000];
+	let [low,average, high ]= salary;
+	console.log (high)
+</script>
+
+
+</body>
+</html>

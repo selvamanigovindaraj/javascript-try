@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p id="arr1"></p>
+        <p id="arr2"></p>
+        <p id="output"></p>
+
+        <script>
+            var array1=[1,2,3,3];
+            var array2=[1,23,3,3];
+            function arraysEqual(a1, a2) {
+             if(a1.length !== a2.length){
+                 document.getElementById('output').innerHTML='Array is not equal'
+             }
+            if(a1.length == a2.length){
+            for(i=0;i<a1.length;i++) {
+             if(a1[i] !== a2[i]){
+             document.getElementById('output').innerHTML='Array is not equal';
+             break;
+             }else{
+                document.getElementById('output').innerHTML='Array is  equal'
+             }}}}
+             arraysEqual(array1, array2);
+            document .getElementById('arr1').innerHTML=array1;
+            document.getElementById('arr2').innerHTML=array2;
+            
+
+            function equalArray(a, b) {
+            if (a.length === b.length) {
+                 for (var i = 0; i < a.length; i++) {
+                    if (a[i] !== b[i]) {
+                        console.log('Array is not equal')
+                     }
+                }
+                 console.log('Array is equal');
+            } 
+            else {
+                console.log('Array is not equal');
+            }
+            }
+            equalArray(array1,array2)
+       
+        </script>
+    </body>
+</html>

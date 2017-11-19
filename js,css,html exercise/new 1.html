@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<input type="number" id="firstNumber" onkeyup="firstAdd()" >
++
+<input type="number" id="lastNumber" onkeyup="lastAdd()">
+=
+<span id="output"></span>
+
+<script>
+	var fNumber="";
+	var lNumber="";
+	function firstAdd(){
+		fNumber=Number(document.getElementById('firstNumber').value);
+		document.getElementById('output').innerHTML=eval(fNumber + lNumber);
+	};
+	function lastAdd(){
+		lNumber=Number(document.getElementById('lastNumber').value);
+		document.getElementById('output').innerHTML=eval(fNumber + lNumber);
+		console.log(fNumber + lNumber);
+	};
+	
+	
+</script>
+
+
+
+</body>
+</html>

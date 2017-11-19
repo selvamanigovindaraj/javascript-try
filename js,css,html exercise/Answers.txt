@@ -1,0 +1,29 @@
+11.
+Local storage 
+- Local storage stores the data in the form of object
+- The data is stored for longer duration and remains in the browser unless user delete it explicitly, it remains even after computer restart 
+- No way to specify the time out period as the Cookies have 
+- Good to create offline application that runs in the client machine (browser) 
+- Local storage data is not sent to the server on every request (HTTP header) as it is purely at the client side 
+
+Cookies 
+- Good for small amount of data  
+- All data is transferred to and from server, so bandwidth is consumed on every request 
+- Can specify timeout period so that cookies data are removed from browser 
+
+1....Since 'undefined' is a reserved word in js so it will log undefined
+
+
+2.....when undefined is add with number it will NaN;
+
+
+3.....Alert1 is 10 since it is declared 
+        Alert2 is 100 Because in local Scope which is declared inside a function block
+        Alert3 is also 10 It is not 100 Because 100 is declared locally inside a function with a prefix of var 
+        so it won't affect the global variable 'a=10';
+
+5.....I compared the array lenth first and started to iterate based on index and compared both type and value 
+        so i can able to check whether it is equal..;
+
+7....I find 'button' using a tagName method And added a event handler using 'addEventListener'.since tagName method
+    returns array So I used the  array index to find button                  
